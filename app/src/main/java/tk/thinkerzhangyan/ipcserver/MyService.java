@@ -8,6 +8,10 @@ import android.os.RemoteCallbackList;
 import android.os.RemoteException;
 import android.util.Log;
 
+import java.util.ArrayList;
+
+import java.util.Collections;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -62,7 +66,12 @@ public class MyService extends Service {
         Log.d("TAG","onCreate");
 
         new Thread(new ServiceWorker()).start();
+
+
+
     }
+
+
 
     @Override
     public void onDestroy() {
