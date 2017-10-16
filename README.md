@@ -1,0 +1,2 @@
+# IPCServer
+AIDL跨进程通信Server端示例代码和AIDL跨进程通信客户端示例代码配合使用。
